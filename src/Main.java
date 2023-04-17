@@ -6,18 +6,7 @@ public class Main {
         String risposta;
         //Presentazione
         System.out.println("Ciao fra");
-
-
-
-
-
-
-
-
-
-
-
-        /////////////////INIZIO CENSIMENTO/////////////////
+/////////////////INIZIO CENSIMENTO/////////////////
 
         //l'utente inserisce il nome del sistema solare
         SistemaSolare sistemaSolare = creaSistema();

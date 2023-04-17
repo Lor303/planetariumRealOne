@@ -22,7 +22,6 @@ public class Main {
         if (risposta.equalsIgnoreCase("si")) {
             sole.aggiungiPianeta(sole);
         }
-
         /////////////////FINE CENSIMENTO/////////////////
 
         String[] vociMenu={"aggiungi pianeta", "aggiungi luna", "rimuovi pianeta", "rimuovi luna", "ricerca corpo celeste", "ricerca lune orbitanti", "percorso luna"};
@@ -34,6 +33,7 @@ public class Main {
                 case 1: //CreaPianeta
                     MetodiMenu.aggiungiPianeta(sole);
                     break;
+
                 case 2: //creaLuna
                     MetodiMenu.aggiungiLuna(sole, sole.pianeti.get(1));
                     break;

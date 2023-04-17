@@ -34,7 +34,6 @@ public class Main {
                 case 1: //CreaPianeta
                     MetodiMenu.aggiungiPianeta(sole);
                     break;
-
                 case 2: //creaLuna
                     MetodiMenu.aggiungiLuna(sole, sole.pianeti.get(1));
                     break;
